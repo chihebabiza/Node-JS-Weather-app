@@ -1,31 +1,32 @@
-# Weather App
+<h1>Weather App</h1>
 
-A simple weather application built with Node.js and Express that provides current weather information based on user location.
+<p>A simple weather application that provides current weather information based on user location.</p>
 
 <h2>Table of Contents</h2>
 <ul>
     <li><a href="#features">Features</a></li>
     <li><a href="#technologies">Technologies</a></li>
-    <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
 </ul>
 
-## Features
-- Display current weather conditions (temperature, description, etc.).
-- Option to manually search for weather by city name.
-- Responsive design for mobile and desktop.
+<h2 id="features">Features</h2>
+<ul>
+    <li>Display current weather conditions (temperature, description, etc.).</li>
+    <li>Option to manually search for weather by city name.</li>
+    <li>Responsive design for mobile and desktop.</li>
+</ul>
 
-## Technologies
-- Node.js
-- Express
-- HTML
-- CSS
-- EJS
-- OpenWeatherMap API
+<h2 id="technologies">Technologies</h2>
+<ul>
+    <li>Node JS</li>
+    <li>Express</li>
+    <li>EJS</li>
+    <li>OpenWeatherMap API</li>
+</ul>
 
-## Installation
+<h2 id="installation">Installation</h2>
 <ol>
     <li>Clone the repository: <code>git clone https://github.com/chihebabiza/Node-JS-Weather-app.git</code></li>
     <li>Navigate to the project directory: <code>cd Node-JS-Weather-app</code></li>
