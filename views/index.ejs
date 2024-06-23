@@ -4,6 +4,7 @@
 <head>
     <title>Weather App</title>
     <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
 </head>
 
 <body>
@@ -13,7 +14,28 @@
             <input type="text" name="city" placeholder="Enter city name" />
             <button type="submit">Get Weather</button>
         </form>
-        <div id="result"></div>
+        ` <% if (error) { %>
+            <p class="error">
+                <%= error %>
+            </p>
+            <% } else if (weather) { %>
+                <div class="card">
+                    <!-- Add your weather data here -->
+                    <p>
+                        <i class="fas fa-thermometer-half"></i>
+                        <%=weather.main.temp%>&deg;F
+                    </p>
+                    <p>
+                        <i class="fas fa-cloud"></i>
+                        <%=weather.weather[0].main%>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <%=weather.name%>, <%=weather.sys.country%>
+                    </p>
+                </div>
+                <% } %>
     </div>
 </body>
 
